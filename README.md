@@ -5,6 +5,7 @@ Adds voice commands to YouTube.
 So far, you can search and choose a video from the results, for example:
 
 > YouTube, search cats
+
 > YouTube, watch 1
 
 ## Build
