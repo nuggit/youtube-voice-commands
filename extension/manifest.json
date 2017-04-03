@@ -1,0 +1,23 @@
+{
+  "name": "Voice Commands for YouTube",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Adds voice commands for browsing YouTube",
+  "permissions": [
+    "http://www.youtube.com/*",
+    "https://www.youtube.com/*",
+    "https://www.youtu.be/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.youtube.com/*",
+        "https://www.youtube.com/*",
+        "https://www.youtu.be/*"
+      ],
+      "js": [
+        "index.js"
+      ]
+    }
+  ]
+}
